@@ -11,3 +11,5 @@ export async function DELETE(request, {params}) {
     const category = await Category.findByIdAndDelete(id);
     return Response.json(category);
     }
+    
+
